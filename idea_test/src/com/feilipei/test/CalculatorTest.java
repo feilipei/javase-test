@@ -13,12 +13,13 @@ public class CalculatorTest {
      * 测试add方法
      */
     @Test
-    public void testAdd(){
+    public void testAdd() {
         Calculator calculator = new Calculator();
         int add = calculator.add(1, 1);
 //        System.out.println(add);
         //断言操作
-        Assert.assertEquals(3,add);
+        Assert.assertEquals(3, add);
+
 
     }
 
